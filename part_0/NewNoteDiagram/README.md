@@ -33,4 +33,5 @@ sequenceDiagram
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
     server->>browser: the notes json file
-    deactivate server```
+    deactivate server
+```
