@@ -1,0 +1,24 @@
+meta {
+  name: add a new blog
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3003/api/blogs
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZGRjMTEyNDVhMzUyYmNjODgwNmYxMiIsInVzZXJuYW1lIjoidGVzdCIsImlhdCI6MTcyNjA2MDcxNiwiZXhwIjoxNzI2NjY1NTE2fQ.IOqGcLbGVtxApyC_eaKuNHHrhC_y2JIoZ0-wYMdS3zI
+}
+
+body:json {
+  {
+    "title": "test adding blog with token",
+    "auhtor": "admin",
+    "url": "www.test.egg",
+    "likes": 10
+  }
+}
