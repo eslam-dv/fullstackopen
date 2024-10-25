@@ -1,0 +1,10 @@
+{
+	"name": "note-taking-app",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"client": "cd client && yarn dev",
+		"server": "cd server && yarn dev"
+	}
+}

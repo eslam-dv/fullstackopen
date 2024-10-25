@@ -1,0 +1,21 @@
+meta {
+  name: update a blog
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:3003/api/blogs/66e19ca7187b0ceca15ec990
+  body: json
+  auth: none
+}
+
+headers {
+  ~Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZGRjMTEyNDVhMzUyYmNjODgwNmYxMiIsInVzZXJuYW1lIjoidGVzdCIsImlhdCI6MTcyNjMyODAxNiwiZXhwIjoxNzI2OTMyODE2fQ.nY_Aj29J1eSto86LgIJDnfA5gLYM6QYAfqvERN0-l9s
+}
+
+body:json {
+  {
+    "likes": 21
+  }
+}

@@ -1,0 +1,18 @@
+.notification {
+  background-color: lightgrey;
+  border: 2px solid;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.green {
+  color: green;
+  border-color: green;
+}
+
+.red {
+  color: red;
+  border-color: red;
+}
